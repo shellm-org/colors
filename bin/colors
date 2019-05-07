@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+## \brief Colors for your scripts.
+## \usage colors [-h]
+while [ $# -ne 0 ]; do
+  case "$1" in
+    ## \option -h, --help
+    ## Print this help and exit.
+    -h|--help) cat "$(shellm locate "shellm/colors")/msg/help"; exit 0 ;;
+  esac
+  shift
+done

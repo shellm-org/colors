@@ -1,0 +1,20 @@
+_copy_without_render: ['templates']
+_template: 'cookiecutter/'
+author_email: 'pawamoy@pm.me'
+author_fullname: 'Timothée Mazzucotelli'
+author_username: 'pawamoy'
+copyright_date: '2019'
+copyright_holder: 'Timothée Mazzucotelli'
+copyright_holder_email: 'pawamoy@pm.me'
+copyright_license: 'ISC License'
+project_description: 'Colors for your scripts.'
+project_name: 'Colors'
+repository_name: 'colors'
+repository_namespace: 'shellm'
+repository_provider: 'gitlab.com'
+script_name: 'colors'
+readme_sections:
+  - summary
+  - installation
+  - usage
+logo: logo.png
